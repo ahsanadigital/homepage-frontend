@@ -1,0 +1,5 @@
+.form-control, .custom-select {
+  &:focus {
+    border-color: var(--#{$prefix}primary);
+  }
+}

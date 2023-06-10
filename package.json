@@ -1,0 +1,38 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^4.5.12",
+    "@fontsource/karla": "^4.5.11",
+    "@fontsource/merriweather": "^4.5.14",
+    "@fontsource/plus-jakarta-sans": "^4.5.11",
+    "@fontsource/signika": "^4.5.13",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/router": "^1.7.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^5.3.0-alpha3",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.61.0",
+    "sass-loader": "10",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^0.7.1",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "postcss-nesting": "^11.2.2"
+  }
+}

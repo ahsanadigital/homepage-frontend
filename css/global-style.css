@@ -1,0 +1,36 @@
+section.need-space {
+  min-height: 25rem;
+  padding: 5rem 0;
+}
+
+section.need-space .title {
+  font-size: 2rem;
+}
+
+section.need-space .subtitle {
+  font-size: 1.5rem;
+  color: var(--nui-primary);
+  font-family: 'Karla';
+}
+
+.header-main {
+  border-bottom: 1px solid var(--nui-border-color-translucent);
+}
+
+.header-main .row {
+  min-height: 100vh;
+  padding-top: 4rem;
+}
+
+.header-main.header-half .row {
+  min-height: 50vh;
+
+  @media screen and (max-width: 768px) {
+    min-height: 35vh;
+  }
+}
+
+.header-main a {
+  text-decoration: none;
+  color: var(--nui-primary);
+}

@@ -1,0 +1,36 @@
+:root {
+  --#{$prefix}font-serif:    #{$font-family-serif};
+  --#{$prefix}font-sans:     #{$font-family-sans-serif};
+  --#{$prefix}font-mono:     #{$font-family-monospace};
+  --#{$prefix}font-heading:  #{$font-family-sans-serif};
+}
+
+.font-serif {
+  font-family: var(--#{$prefix}font-serif);
+}
+.font-sans {
+  font-family: var(--#{$prefix}font-sans);
+}
+.font-mono {
+  font-family: var(--#{$prefix}font-mono);
+}
+.font-heading {
+  font-family: var(--#{$prefix}font-heading);
+  font-weight: 600;
+}
+
+.text-sm {
+  @include font-size($font-size-base * .875);
+}
+.text-md {
+  @include font-size($font-size-base * 1.25);
+}
+.text-xl {
+  @include font-size($font-size-base * 1.75);
+}
+.text-lg {
+  @include font-size($font-size-base * 2.5);
+}
+.text-xl {
+  @include font-size($font-size-base * 3.5);
+}

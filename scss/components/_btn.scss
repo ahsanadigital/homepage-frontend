@@ -1,0 +1,19 @@
+.btn {
+  @each $color, $value in $theme-colors {
+    &-s-#{$color} {
+      @include button-soft-variant($value)
+    }
+    &-so-#{$color} {
+      @include button-soft-outline-variant($value)
+    }
+    &-w-#{$color} {
+      @include button-white-variant($value)
+    }
+    &-ws-#{$color} {
+      @include button-white-soft-variant($value)
+    }
+    &-wso-#{$color} {
+      @include button-white-soft-outline-variant($value)
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@each $name, $value in $theme-colors {
+  .bg-#{$name} {
+    @include background-color($value);
+  }
+  .bg-dim-#{$name} {
+    @include background-soft($value);
+  }
+}

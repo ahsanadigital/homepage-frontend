@@ -1,0 +1,8 @@
+@mixin background-soft($background) {
+  background-color: rgba($background, .125) !important;
+  color: $background !important;
+}
+@mixin background-color($background) {
+  background-color: rgba($background, 1) !important;
+  color: color-contrast($background) !important;
+}
